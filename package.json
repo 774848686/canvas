@@ -1,0 +1,36 @@
+{
+  "name": "eatcookie",
+  "version": "1.0.0",
+  "description": "a ganme for canvas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "keywords": [
+    "canvas"
+  ],
+  "author": "devin",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
